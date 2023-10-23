@@ -1,4 +1,4 @@
-#include <python.h>
+#include <Python.h>
 #include <stdio.h>
 /**
  * print_python_float - gives data of the PyFloatObject
@@ -78,5 +78,5 @@ void print_python_list(PyObject *p)
 		}
 	}
 	else
-		print(" [ERROR] Invalid list objective\n");
+		printf("  [ERROR] Invalid List Object\n");
 }
