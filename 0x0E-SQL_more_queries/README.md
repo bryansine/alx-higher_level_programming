@@ -1,1 +1,0 @@
-ql more querries
