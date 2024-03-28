@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-""""A scrupt that: takes in a URL,
--then sends a request to the URL
-- displays the body of the response.
+"""A script that:
+- takes in a URL,
+- sends a request to the URL
+- displays the body of the response (decoded in utf-8).
 """
 
 
@@ -12,5 +13,5 @@ if __name__ == "__main__":
     try:
         with request.urlopen(sys.argv[1]) as res:
             print(res.read().decode('UTF-8'))
-    except error.HTTPerror as er:
+    except error.HTTPError as er:
         print('Error code:', er.code)
