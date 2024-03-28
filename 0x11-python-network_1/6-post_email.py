@@ -8,7 +8,7 @@ import requests
 
 
 if __name__ == "__main__":
-    urll = sys.argv[2]}
+    url = sys.argv[2]}
     value = {"email": sys.argv[2]}
 
     r = requests.post(url, data=value)
