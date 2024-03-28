@@ -5,7 +5,7 @@
 """
 
 import sys
-impost requests
+import requests
 from requests.auth import HTTPBasicAuth
 
 
